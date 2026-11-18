@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew Haven Coffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">☕ Brew Haven</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Fresh coffee every day</p>
+          <h1>Welcome to Brew Haven</h1>
+          <p>A cozy neighbourhood coffee shop serving quality coffee and homemade pastries.</p>
+          <a class="button" href="#menu">View Our Menu</a>
+        </div>
+        <img src="images/coffee1.jpg" alt="A cup of coffee on a wooden table" class="hero-img">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <img src="images/about.jpg" alt="Barista preparing coffee at Brew Haven" class="about-img">
+        <div>
+          <h2>About Us</h2>
+          <p>Brew Haven opened in 2025 with one simple goal: to make great coffee accessible to everyone. We use freshly roasted beans and support local suppliers.</p>
+          <p>Whether you need a quiet place to study or a spot to meet friends, our shop is designed to feel like home.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <h2>Our Favourites</h2>
+        <p class="section-intro">Simple drinks and snacks, made fresh every day.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon" aria-hidden="true">☕</div>
+            <h3>Espresso</h3>
+            <p>Rich and bold, made from our signature house blend.</p>
+            <p class="price">RM 8</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">🥐</div>
+            <h3>Butter Croissant</h3>
+            <p>Flaky, buttery and baked fresh every morning.</p>
+            <p class="price">RM 10</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">🍰</div>
+            <h3>Classic Cheesecake</h3>
+            <p>Creamy cheesecake with a crunchy biscuit base.</p>
+            <p class="price">RM 14</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <h2>Inside Brew Haven</h2>
+        <p class="section-intro">Take a look at our coffee and our space.</p>
+
+        <div class="media-grid">
+          <img src="images/hero.jpg" alt="Latte art in a white cup">
+          <video controls>
+            <source src="videos/coffee.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-layout">
+        <div>
+          <h2>Contact Us</h2>
+          <p>📍 Persiaran Perdana BBN, Putra Nilai, 71800 Nilai, Negeri Sembilan, Malaysia </p>
+          <p>⏰ Monday to Sunday, 8:00 a.m. – 6:00 p.m.</p>
+          <p>📞 017-3089534</p>
+        </div>
+
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="How can we help?"></textarea>
+
+          <button type="button" class="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Brew Haven Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
